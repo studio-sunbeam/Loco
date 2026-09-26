@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loco Music Player — Support</title>
+<meta name="description" content="Loco Music Player — Support">
+<meta name="color-scheme" content="light dark">
+<link rel="alternate" hreflang="sl" href="support-sl.html">
+<style>
+:root{--bg:#ffffff;--text:#1d1d1f;--muted:#6e6e73;--line:#e5e5ea;--accent:#0a66d8;--card:#f5f5f7}
+@media (prefers-color-scheme:dark){:root{--bg:#000000;--text:#f5f5f7;--muted:#a1a1a6;--line:#2c2c2e;--accent:#4aa3ff;--card:#1c1c1e}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 48px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:32px}
+.brand{white-space:nowrap;display:flex;align-items:center;gap:10px;font-weight:600;color:var(--text);text-decoration:none}
+.mark{width:32px;height:32px;border-radius:8px;background:linear-gradient(145deg,#ff7a45,#e0356b);display:grid;place-items:center}
+.mark svg{width:20px;height:20px}
+nav{display:flex;gap:14px;font-size:15px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none}
+nav a[aria-current=page]{color:var(--text);font-weight:600}
+nav a:hover{color:var(--accent)}
+h1{font-size:32px;line-height:1.2;letter-spacing:-.01em;margin:0 0 8px}
+.meta{color:var(--muted);font-size:15px;margin:0 0 28px}
+h2{font-size:21px;line-height:1.3;margin:32px 0 8px}
+p{margin:0 0 14px}
+a{color:var(--accent)}
+.lead{font-size:19px}
+.contact{background:var(--card);border-radius:14px;padding:18px 20px;margin:0 0 8px}
+.contact p:last-child{margin:0}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+@media (max-width:520px){header{flex-direction:column;align-items:flex-start}h1{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="support.html"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/></svg></span>Loco Music Player</a>
+<nav><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a><a href="support-sl.html" hreflang="sl" lang="sl">Slovenščina</a></nav>
+</header>
+<main>
+<h1>Support</h1>
+
+<div class="contact"><p>Need help or found a bug? Write to <a href="mailto:sunbeam.studio@outlook.com">sunbeam.studio@outlook.com</a>. Please mention your device and system version (for example, “MacBook Pro, macOS 26”).</p></div>
+<h2>How do I add my music?</h2>
+<p>On Mac, open Folders and choose Add Folder… — any folder on your Mac, an external drive or iCloud Drive works. On iPad and iPhone, choose Add Folder… and pick a folder in the Files app: iCloud Drive, an external drive, or the Loco folder, which you can fill from a Mac through the Finder.</p>
+<h2>Why can’t Loco see the songs in the Music app?</h2>
+<p>Music synced to the Music app on iPhone and iPad is kept in the system media library, which apps can’t access as files. Loco plays music files from folders.</p>
+<h2>Some songs in iCloud Drive show “Not downloaded”</h2>
+<p>Loco doesn’t download files on its own while scanning. Tap the download button next to a song or a folder, then scan the folder again.</p>
+<h2>How do I get gapless playback and the equalizer?</h2>
+<p>In Settings, turn on the audio engine. Switching engines stops playback.</p>
+<h2>How do lyrics work?</h2>
+<p>Loco shows lyrics from an .lrc file with the same name as the song, in the same folder, or from lyrics embedded in the song’s tags. Synced lyrics follow the song. You can add or edit lyrics in Edit Tags.</p>
+<h2>Which files can Loco edit?</h2>
+<p>Tags, artwork and lyrics can be edited in MP3, FLAC and M4A files. Loco checks after every write that the audio stayed exactly the same and restores the file if it didn’t.</p>
+<h2>Can I use my Windows playlists?</h2>
+<p>Yes. Import M3U, M3U8, PLS, WPL (Windows Media Player) or ZPL (Zune) files in Playlists. The songs must be in a folder you’ve added to Loco; Loco matches them even when the playlist uses Windows paths.</p>
+<h2>Privacy</h2>
+<p>Loco doesn’t collect any data. See the <a href="privacy.html">Privacy Policy</a>.</p>
+</main>
+<footer><span>© 2026 Primož Škrjanc</span><span><a href="mailto:sunbeam.studio@outlook.com">sunbeam.studio@outlook.com</a></span></footer>
+</div>
+</body>
+</html>
